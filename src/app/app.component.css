@@ -1,0 +1,52 @@
+/*
+
+.background-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(/assets/images/frame.png) no-repeat center center;
+  background-size: contain;
+  text-align: center;
+}
+
+.position-items {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  color: #46549F;
+}
+
+.ribbon {
+  top: 30%;
+  transform: translate(-50%, -50%);
+  max-width: 10%;
+  height: auto;
+}
+
+
+h1.apple-font {
+  bottom: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+}
+
+.date {
+  bottom: 49%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+}
+
+.count-us {
+  letter-spacing: 1.5px;
+  bottom: 38%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+
+.buttons {
+  bottom: 38%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+*/
+

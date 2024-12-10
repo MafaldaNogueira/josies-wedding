@@ -1,0 +1,78 @@
+
+
+
+.names {
+  text-align: center;
+  font-size: 4rem;
+}
+
+
+.img-frame {
+  width: 99vw;
+}
+
+@media(max-width: 772px) {
+  .img-frame-reverse {
+    width: 93vw !important;
+  }
+
+  .img-frame {
+    width: 95vw !important;
+  }
+
+
+  .names {
+    font-size: 2.2rem !important;
+  }
+}
+
+
+
+@media(max-width: 1200px) {
+  .info-text p{
+    font-size: 1.2rem !important;
+  }
+  .names {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media(min-width: 992px){
+  .img-frame-reverse{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .img-frame-reverse {
+    width: 100vw !important;
+  }
+
+  .img-frame {
+    width: 100vw !important;
+  }
+
+}
+
+.img-frame-reverse {
+  width: 99vw;
+
+}
+
+.ring-img {
+  width: 3rem;
+}
+
+.sparkles-img{
+  width: 3rem;
+  margin-top: -2rem;
+}
+
+.info-text p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem
+}

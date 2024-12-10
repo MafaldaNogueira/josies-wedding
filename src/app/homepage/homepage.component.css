@@ -1,0 +1,49 @@
+.ribbon {
+  max-width: 25%;
+  margin-top: 5rem;
+}
+
+@media (max-width: 772px) {
+  .names {
+    font-size: 3rem !important;
+  }
+
+}
+.names {
+  font-size: 4rem;
+}
+
+.date {
+  font-size: 1.8rem;
+  margin-top: -1rem;
+}
+
+.count-us {
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  background-color: #46549F;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.img-frame {
+  width: 100vw;
+}
+
+
+.img-frame-reverse {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1; /* Send it behind other content, adjust as needed */
+}

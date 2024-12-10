@@ -1,12 +1,13 @@
-import {RouterModule, Routes} from '@angular/router';
-import {AppComponent} from './app.component';
+import { Routes} from '@angular/router';
 import {WeddingDayComponent} from './wedding-day/wedding-day.component';
-import {NgModule} from '@angular/core';
-import {bootstrapApplication} from '@angular/platform-browser';
 import {HomepageComponent} from './homepage/homepage.component';
+import {WhereToStayComponent} from './where-to-stay/where-to-stay.component';
+import {ConfirmComponent} from './confirm/confirm.component';
 
 export const routes: Routes = [
   { path: '', component: HomepageComponent },
-  { path: 'wedding-day', component: WeddingDayComponent }
+  { path: 'wedding-day', component: WeddingDayComponent },
+  { path: 'where-to-stay', component: WhereToStayComponent },
+  { path: 'to-confirm', component: ConfirmComponent }
 ];
 

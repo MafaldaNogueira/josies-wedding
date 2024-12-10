@@ -72,15 +72,6 @@
 
 }
 
-.ring-img {
-  width: 3rem;
-}
-
-.sparkles-img{
-  width: 3rem;
-  margin-top: -2rem;
-}
-
 .info-text p {
   font-size: 1.5rem;
   text-align: center;
@@ -96,4 +87,13 @@
   width: 100%;
   border: none;
   text-decoration: none;
+}
+
+
+.form-confirm input,
+.form-confirm textarea{
+  border: none;
+  border-bottom: 2px solid #46549F;
+  outline: none;
+
 }

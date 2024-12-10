@@ -12,4 +12,12 @@ export class HomepageComponent {
   onWeddingDay() {
     this.router.navigate(['/wedding-day']);
   }
+
+  onToStay() {
+    this.router.navigate(['/where-to-stay']);
+  }
+
+  onConfirm() {
+    this.router.navigate(['/to-confirm']);
+  }
 }

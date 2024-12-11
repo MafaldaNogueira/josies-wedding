@@ -5,7 +5,7 @@ import {WhereToStayComponent} from './where-to-stay/where-to-stay.component';
 import {ConfirmComponent} from './confirm/confirm.component';
 
 export const routes: Routes = [
-  { path: '/', component: HomepageComponent },
+  { path: '', component: HomepageComponent },
   { path: 'josies-wedding', component: HomepageComponent },
   { path: 'wedding-day', component: WeddingDayComponent },
   { path: 'where-to-stay', component: WhereToStayComponent },

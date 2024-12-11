@@ -41,7 +41,7 @@ export class ConfirmComponent {
   }
 
   onOptionChange(option: string) {
-    option === 'yes' ? this.isTakingKids = true : this.isTakingKids = false;
+    option === 'sim' ? this.isTakingKids = true : this.isTakingKids = false;
   }
 
   onKidsNumber(option: string) {
@@ -58,6 +58,6 @@ export class ConfirmComponent {
   }
 
   kidsMeal(option: string) {
-    option === 'regular' ? this.mealKidOne = 'regular' : this.mealKidOne = 'Infantil'
+    option === 'refeição de adulto' ? this.mealKidOne = 'refeição de adulto' : this.mealKidOne = 'Infantil'
   }
 }

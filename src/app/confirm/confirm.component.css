@@ -97,3 +97,10 @@
   outline: none;
 
 }
+
+input,
+textarea{
+  background: rgba(70, 84, 159, 0.1);
+  border-radius: 4px;
+  line-height: 3rem;
+}
